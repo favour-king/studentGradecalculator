@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+            <!-- <header class="header">
+                <h4 class="logo">
+                    <img src="/images/accounting.png" alt="" width="16px" height="16px">  GPcalculator
+                </h4>
+                <nav>
+                    <ul class="nav_link">
+                        <li>Guide</li>
+                        <li>FAQ</li>
+                    </ul>
+                </nav>     
+                <div class="social">
+                    <a href=""><img src="/images/twitter-black-shape.png" alt="" width="13px" height="13px"></a>
+                    <a href=""><img src="/images/facebook-social-logo.png" alt="" width="13px" height="13px"></a>
+                    <a href=""><img src="/images/google-plus.png" alt="" width="13px" height="13px"></a>
+                </div> 
+            </header> -->
+            <!-- <div class="main-page">
+                <div class="main-p1">
+                    <h2>GP calculator</h2>
+                    <p>calculate your college and cummulative GP, check your grades and understand how the GP scale works</p>
+                </div>
+                <img src="/images/6308.png" alt="" width="500px" height="400px">
+            </div> -->
+            <div class="calc-body">
+                <div class="result">
+                    <div class="result">
+                        <h1>Result</h1>
+                        <div class="show">
+                            <h2>Total: <span id="total"></span></h2>
+                            <h2>Percentage: <span id="percentage"></span></h2>
+                            <h2>Grade: <span id="grade"></span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-inp">
+                    <div class="inp">
+                        <input type="number" name="" id="math" placeholder="math"  minlength="1" maxlength="2"><br>
+                        <input type="number" name="" id="physics" placeholder="physics"maxlength="2"><br>
+                        <input type="number" name="" id="chemistry" placeholder="chemistry"maxlength="2"><br>
+                        <input type="number" name="" id="programing" placeholder="programing"maxlength="2"><br>
+                        <button onclick="getResult()">calculate result</button>
+                    </div>
+                </div>
+                <div class="result_show">
+                    <h3><span id="msg"></span></h3>  
+                </div>
+            </div>
+        <script src="main.js" async defer></script>
+    </body>
+</html>

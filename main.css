@@ -1,0 +1,150 @@
+/* section 1 : this is for the nav bar section */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: powderblue;
+    display: flex;
+}
+
+/* li,
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav_link {
+    list-style: none;
+
+}
+
+.nav_link li {
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 13px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.social {
+    margin-right: 20px;
+    margin-top: 6px;
+} */
+
+/* .box {
+    background: rgb(194, 238, 253);
+    width: auto;
+    position: relative;
+    height: 100%;
+}
+
+.box:before {
+    position: absolute;
+    left: -50px;
+    content: '';
+    width: 600px;
+    height: 662px;
+    border-left: 50px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 50px solid white;
+} */
+
+/* tthis is the stling ofthe second page */
+/* .main-page {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-p1 {
+    height: auto;
+    width: 30rem;
+} */
+
+/* design the calculator section */
+.calc-body {
+    background: radial-gradient(rgba(255, 255, 255, 0.09),
+            rgba(255, 255, 255, 0.5)
+            );
+    height: 80vh;
+    width: 50vh;
+    border-radius: 20px;
+}
+.result{
+    position: absolute;
+    height: 80vh;
+    width: 20vh;
+    background: radial-gradient(rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.5));
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.result h1 {
+    text-align: center;
+    font-size: 25px;
+    margin: 25px;
+}
+.show {
+    margin: 40px 20px;
+}
+.show h2{
+    margin: 5px;
+    font-size: 12px;
+}
+.main-inp{
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    min-width: 65vh;
+    display: flex;
+}
+input {
+    background: radial-gradient(rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.5));
+    margin: 15px;
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 10px;
+    padding: 10px;
+    font-weight: 1;
+    text-decoration: none;
+}
+button{
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+    font-weight: 800;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    outline: none;
+    margin: 10px 40px;
+    cursor: pointer;
+}
+.result_show{
+    height: 40px;
+    width: inherit;
+    background: aquamarine;
+    margin: -41px 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.result_show h3{
+    display: flex;
+    justify-content: center;
+}
